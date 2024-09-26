@@ -2,7 +2,7 @@
 
 # dependencies
 node_modules/
-
+Home2.js
 # Expo
 .expo/
 dist/
