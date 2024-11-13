@@ -8,4 +8,4 @@ npm install @react-navigation/native @react-navigation/drawer react-native-gestu
 
 npx expo install react-native-reanimated
 npm install @react-native-async-storage/async-storage
-
+npx expo install expo-image

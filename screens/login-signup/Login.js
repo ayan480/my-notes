@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity, StyleSheet, Image } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
+import { Image } from 'expo-image';
 import { useForm, Controller } from 'react-hook-form';
 import { useNavigation } from '@react-navigation/native';
 import * as yup from 'yup';
@@ -59,7 +60,7 @@ export default function Login() {
   return (
     <View style={styles.container}>
       {/* Logo */}
-      <Image source={require('../../assets/logo.png')} style={styles.logo} />
+      <Image source={require('../../assets/notes-logo.png')} style={styles.logo_style} />
 
       {/* Email or Phone Input */}
       <View style={styles.inputWrapper}>
@@ -129,7 +130,7 @@ const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: '#f8f9fa',
   },
-  logo: {
+  logo_style: {
     width: 100,
     height: 100,
     marginBottom: 20,
